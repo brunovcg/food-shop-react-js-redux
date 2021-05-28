@@ -12,7 +12,6 @@ export const ProductBox = styled.div`
         margin: 20px auto;
         box-shadow: 1px 4px 4px rgba(0,0,0,0.3);
         border-radius: 10px;
-
     }
 
     .productList{
@@ -21,14 +20,10 @@ export const ProductBox = styled.div`
         flex-wrap: wrap;
         justify-content: flex-start;  
         width: 100%;
+        margin: 0 auto;
 
         div{
-            margin-right: 20px;
-            margin-bottom: 20px;
+            margin: 10px;
         }
-
-    
-
     }
-
 `

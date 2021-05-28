@@ -4,18 +4,11 @@ import SubtotalBox from '../../components/Subtotal';
 import {CheckoutBox} from './styles';
 import { useSelector } from 'react-redux';
 
-
-
 export const Checkout = () => {
 
     const cart = useSelector((store)=> store.cart)
 
     const products = JSON.parse(localStorage.getItem("cart")) || [];
-
-  
-
-  
-
 
     return(
         <CheckoutBox>
@@ -30,9 +23,6 @@ export const Checkout = () => {
                     <SubtotalBox products={products}/>
                 </div>
             </div>
-
-
-
         </CheckoutBox>
     )
 }

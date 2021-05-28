@@ -7,7 +7,6 @@ import salada from '../../../assets/salada.jpeg';
 import sopa from '../../../assets/sopa.jpeg';
 import sushi from '../../../assets/sushi.jpeg';
 
-
 const defaultFood = [
     { id: 1, image: chopsuey , name: "ChopSuey", price: 20.59},
     { id: 2, image: conteporanea , name: "Peixe", price: 50.59 },

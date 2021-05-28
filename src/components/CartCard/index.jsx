@@ -17,10 +17,10 @@ const CartCard = ({product}) => {
             <h3>{name}</h3>
             <p>{`R$ ${price}`}</p>
             <Button
-             onClick={()=>dispatch(removeCartThunk(id))}
-             variant="contained"
-             color="primary"
-             size="medium"
+                onClick={()=>dispatch(removeCartThunk(id))}
+                variant="contained"
+                color="primary"
+                size="medium"
             >
                 Remover
             </Button>

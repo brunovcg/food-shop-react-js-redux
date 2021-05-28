@@ -13,9 +13,7 @@ export const Container = styled.header`
 
     .homeButton{
         width: 15%;
-
     }
-    
 
     h1 {
         color: #3AA5CD;

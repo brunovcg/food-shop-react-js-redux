@@ -14,9 +14,6 @@ export const Header = () =>{
 
     const cart = useSelector((store)=> store.cart)
 
-    console.log(cart)
-
-
     return(
        <Container>
             <div className="homeButton"> 
@@ -41,8 +38,6 @@ export const Header = () =>{
                 >
                     Carrinho
                 </Button>
-                
-              
 
                 <div>{`${cart.length} itens`}</div>
             </div>

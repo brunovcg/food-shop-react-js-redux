@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const CardBox = styled.div`
 
     background-color: white;
-    width: 200px;
+    width: 190px;
     height: 280px;
     padding-top: 10px;
     border-radius: 10px;
@@ -15,8 +15,9 @@ export const CardBox = styled.div`
         margin-top: 10px;
 
         img{
-            width: 100%;
-            height: 100%;
+            width: 100px;
+            height: 100px;
+            border-radius: 4px;
         }
     }
 
@@ -29,11 +30,4 @@ export const CardBox = styled.div`
         color: #C84C62;
         font-weight: bold;
     }
-
-    button{
-        
-    }
-
-
-
 `

@@ -1,13 +1,10 @@
 import SimpleContainer from '../../components/SimpleContainer'
 
-
 const Payment = () => {
 
     return(
         <SimpleContainer>
-
-                Página de pagamento, a ser construida.
-
+                Página de pagamento: a ser construida.
         </SimpleContainer>
     )
 }

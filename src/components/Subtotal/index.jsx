@@ -4,8 +4,6 @@ import {useHistory} from 'react-router-dom';
 import {emptyCartThunk} from '../../store/modules/cart/thunks';
 import {useDispatch} from 'react-redux';
 
-
-
 const SubtotalBox = ({products}) => {
 
     const dispatch = useDispatch();
@@ -16,17 +14,18 @@ const SubtotalBox = ({products}) => {
         history.push(path)
     }
 
-    // const handleClear = () => {
-    //     localStorage.clear()
-    // }
-
     const total = products.reduce((acc, prox)=> acc+prox.price,0)
 
     return(
         <Container>
            
             <h3>Subtotal</h3>
-            <p>{`Preço R$ ${total} -`} <span>{`${products.length} itens`}</span>  </p>
+          
+            <p>Preço: <span>R$ {Math.round(total*100)/100}</span></p>
+          
+            
+            <div className="itens">{`${products.length} itens`}</div>  
+            
             <Button
                onClick={()=> handleNav("/payment")}
                variant="contained"

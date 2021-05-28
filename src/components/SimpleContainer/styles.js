@@ -15,6 +15,4 @@ export const ContainerBox = styled.div`
     font-size: 30px;
     font-weight: bold;
     font-variant: small-caps;
-
-
 `

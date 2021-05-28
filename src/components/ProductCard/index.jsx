@@ -3,7 +3,6 @@ import Button from "@material-ui/core/Button";
 import {useDispatch} from 'react-redux';
 import {addCartThunk} from '../../store/modules/cart/thunks'
 
-
 const ProductCard = ({product}) => {
 
         const dispatch = useDispatch();
@@ -16,12 +15,12 @@ const ProductCard = ({product}) => {
                 <img src={image} alt="logo" />
             </figure>
             <h3>{name}</h3>
-            <p>{price}</p>
+            <p>R$ {price}</p>
             <Button
-             onClick={()=>dispatch(addCartThunk(product))}
-             variant="contained"
-             color="primary"
-             size="medium"
+                onClick={()=>dispatch(addCartThunk(product))}
+                variant="contained"
+                color="primary"
+                size="medium"
             >
                 Adicionar
             </Button>

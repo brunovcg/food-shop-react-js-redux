@@ -22,7 +22,7 @@ background-color: white;
         img{
             height: 120px;
             width: 120px;
-
+            border-radius: 4px;
         }
     }
 
@@ -34,13 +34,5 @@ background-color: white;
         width: 20%;
         color: #C84C62;
         font-weight: bold;
-
     }
-
-    button{
-       
-    }
-
-
-
 ` 

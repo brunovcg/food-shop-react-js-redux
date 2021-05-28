@@ -20,9 +20,6 @@ const cartReducer = (state = defaultState, action)=> {
                 const {emptyList} = action;
                 return emptyList;
 
-
-
-
         default:
             return state;
     }
