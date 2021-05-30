@@ -2,10 +2,16 @@ import {addCart, removeCart } from './actions';
 
 export const addCartThunk = (product) => {
     return (dispatch) => {
+
         const list = JSON.parse(localStorage.getItem("cart")) || [];
-        list.push(product);
-        localStorage.setItem("cart", JSON.stringify(list));
-        dispatch(addCart(product))
+
+        if (!list.find(item=>item.id === product.id)){
+        
+            list.push(product);
+            localStorage.setItem("cart", JSON.stringify(list));
+            dispatch(addCart(product))
+        } else {alert(`Escolha apena um de cada produto: ${product.name} já foi escolhido`)}
+
     }
 }
 

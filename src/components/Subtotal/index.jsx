@@ -22,7 +22,6 @@ const SubtotalBox = ({products}) => {
             <h3>Subtotal</h3>
           
             <p>Preço: <span>R$ {Math.round(total*100)/100}</span></p>
-          
             
             <div className="itens">{`${products.length} itens`}</div>  
             

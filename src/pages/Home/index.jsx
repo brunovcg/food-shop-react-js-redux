@@ -12,6 +12,7 @@ export const Home = () => {
     return(
         <ProductBox>
             <h2>Bem vindo e bom apetite!</h2>
+            <h4>Cada produto pode ser escolhido uma única vez</h4>
 
                 <div className="productList">
                    

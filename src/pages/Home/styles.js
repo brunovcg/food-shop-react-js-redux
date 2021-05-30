@@ -9,9 +9,22 @@ export const ProductBox = styled.div`
         font-size: 30px;
         background-color: white;
         width: 400px;
-        margin: 20px auto;
+        margin: 20px auto 10px auto;
         box-shadow: 1px 4px 4px rgba(0,0,0,0.3);
         border-radius: 10px;
+        padding: 5px;
+    }
+    
+    h4{
+        color: #32630A;
+        background-color: white;
+        box-shadow: 1px 4px 4px rgba(0,0,0,0.3);
+        width: 350px;
+        margin: 10px auto;
+        border-radius: 10px;
+        font-size: 12px;
+        padding: 10px;
+
     }
 
     .productList{
