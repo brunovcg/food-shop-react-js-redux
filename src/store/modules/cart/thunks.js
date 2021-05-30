@@ -10,7 +10,7 @@ export const addCartThunk = (product) => {
             list.push(product);
             localStorage.setItem("cart", JSON.stringify(list));
             dispatch(addCart(product))
-        } else {alert(`Escolha apena um de cada produto: ${product.name} já foi escolhido`)}
+        } else {alert(`Escolha apenas um de cada produto: ${product.name} já foi escolhido`)}
 
     }
 }
