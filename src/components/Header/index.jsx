@@ -27,7 +27,7 @@ export const Header = () =>{
                 </Button>
             </div>
 
-            <h1>Kenzie Food-Shop</h1>
+            <h1>Food-Shop</h1>
 
             <div className="cartButton">
                 <Button
